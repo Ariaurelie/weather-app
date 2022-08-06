@@ -24,22 +24,12 @@ input {
   width: 50%;
 }
 
-a {
-  color: #4682b4 !important;
-}
 
 img {
   max-width: 300px;
 }
 
-a:active {
-  color: black;
-  cursor: default;
-}
 
-.main {
-  margin-top: 150px;
-}
 
 .description:first-letter {
   text-transform: capitalize;
@@ -49,10 +39,7 @@ a:active {
   display: flex;
 }
 
-a:hover {
-  color: blue;
-  cursor: pointer;
-}
+
 
 span:first-letter {
   text-transform: capitalize;

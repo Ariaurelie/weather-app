@@ -17,12 +17,7 @@
   <body>
     <div class="weather-container">
       <div class="container cities">
-        <div class="row">
-          <div class="col">Helsinki</div>
-          <div class="col">Tampere</div>
-          <div class="col">Turku</div>
-          <div class="col">Espoo</div>
-        </div>
+        
         <div class="button-container">
           <form id="searching-form">
           <input type="button" value="Current " class="location-button" style="height:30px; width:70px">
@@ -33,59 +28,31 @@
         <hr />
         <div class="row">
         <div class="col-6">
-      <img src="" id="icon"/>
       <h1 class="city"></h1>
         <p class="current-date"></p>
         <p class="description"></p>
-        <p>
-          <span id="temperature"></span>
-          <span class="units">
-            <a id="celcius">°C</a>
-            |
-            <a id="fahrenheit">°F</a>
-            </span>
-        </p>
-        </div>
-        <div class="col-6">
         <p class="main">
           Humidity: <span id="humidity"></span>%
           <br />
           Wind: <span id="wind"></span> km/h
         </p>
         </div>
+        <div class="col-6">
+           <img src="" id="icon"/>
+           <p>
+          <span id="temperature"></span>
+          <span class="units">
+            <a id="celcius" href="#">°C</a>
+            |
+            <a id="fahrenheit" href="#">°F</a>
+            </span>
+        </p>
+        </div>
         </div>
         </div>
         <hr />
-        <div class="container five-days">
+        <div class="container five-days" id="forecast">
           <div class="row">
-            <div class="col-3">
-              Tue
-              <br />
-              <i class="fa-solid fa-cloud-showers-heavy rain"></i>
-              <br />
-              <strong>17°</strong> 8°
-            </div>
-            <div class="col-3">
-              Wed
-              <br />
-              <i class="fa-solid fa-cloud-showers-heavy rain"></i>
-              <br />
-              <strong>18°</strong> 9°
-            </div>
-            <div class="col-3">
-              Thu
-              <br />
-              <i class="fa-solid fa-cloud-showers-heavy rain"></i>
-              <br />
-              <strong>17°</strong> 9°
-            </div>
-            <div class="col-3">
-              Fri
-              <br />
-              <i class="fa-solid fa-cloud-showers-heavy rain"></i>
-              <br />
-              <strong>17°</strong> 8°
-            </div>
           </div>
         </div>
       </div>
