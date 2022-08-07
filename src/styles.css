@@ -2,73 +2,65 @@ h1 {
   font-family: 'Montserrat', sans-serif;
 }
 
-p,
-li {
+p, span {
   font-family: 'Montserrat', sans-serif;
+  margin: 2px;
+  padding: 0.5px;
 }
 
-li {
-  list-style: none;
+span {
+  display: inline-block;
 }
 
-span#temperature-value {
-  font-size: 50px;
-}
 
 div {
   font-size: 15px;
   font-family: 'Montserrat', sans-serif;
 }
+
 input {
   border-radius: 5px;
   width: 50%;
 }
 
-
 img {
-  max-width: 300px;
+  max-width: 250px;
+  text-align: center;
 }
-
-
 
 .description:first-letter {
   text-transform: capitalize;
 }
 
-.row {
-  display: flex;
+
+.main-temperature {
+  font-size: 60px;
+  margin-top: 45px;
 }
 
 
-
-span:first-letter {
-  text-transform: capitalize;
-}
-
-
-#temperature {
-  font-size: 50px;
-}
 .submit-button,
 .location-button {
   border: 0.5px solid grey;
   background: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
-  border-radius: 5px;
+  border-radius: px;
   transition: all 200ms ease-in-out;
 }
 
 .units {
   top: -24px;
   position: relative;
+  font-size: 20px;
 }
 
 .author {
   text-align: center;
   font-family: 'Roboto Mono', monospace;
 }
+
 .button-container {
   text-align: center;
-  margin: 5px;
+  margin-bottom: 15px;
 }
 
 .location-button:hover,
@@ -76,12 +68,27 @@ span:first-letter {
   background: linear-gradient(179.7deg, rgb(197, 214, 227) 2.9%, rgb(144, 175, 202) 97.1%);
 }
 
-
 .weather-container {
   border-radius: 30px;
-  width: 50%;
+  width: 45%;
   margin: 30px auto;
   background: linear-gradient(111.4deg, rgb(209, 231, 235) 7.4%, rgb(238, 219, 199) 51.4%, rgb(255, 159, 122) 82.6%, rgb(255, 109, 58) 100.2%);
   box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
   padding: 20px;
 }
+
+
+.link {
+text-decoration: none !important;
+color: #478C99;
+}
+
+.link:hover {
+  color: #346F7A;
+}
+
+.weekday {
+  text-align: center;
+}
+
+

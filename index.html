@@ -29,20 +29,19 @@
         <div class="row">
         <div class="col-6">
       <h1 class="city"></h1>
-        <p class="current-date"></p>
-        <p class="description"></p>
-        <p class="main">
+        <span class="current-date"></span>, 
+        <span class="description"></span>
+        <br />
+        <span class="main">
           Humidity: <span id="humidity"></span>%
           <br />
           Wind: <span id="wind"></span> km/h
-        </p>
+        </span>
         </div>
-        <div class="col-6">
-           <img src="" id="icon"/>
-           <p>
-          <span id="temperature"></span>
+        <div class="col-6 temp-icon">
+           <span><img src="" id="icon" class="main-icon"/></span>
+          <span id="temperature" class="main-temperature"></span>
           <span class="units" id="celcius" href="#">°C</span>
-        </p>
         </div>
         </div>
         </div>
@@ -53,7 +52,7 @@
         </div>
       </div>
     </div>
-    <p class="author"><a href="https://github.com/Ariaurelie/weather-app" target="_blank">Open-source code</a> by Daria Zholtikova</p>
+    <p class="author"><a class="link" href="https://github.com/Ariaurelie/weather-app" target="_blank">Open-source code</a> by Daria Zholtikova</p>
     <script src="https://kit.fontawesome.com/3d2936541f.js" crossorigin="anonymous"></script>
     <script src="src/script.js"></script>
   </body>

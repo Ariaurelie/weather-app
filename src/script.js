@@ -31,14 +31,13 @@ let forecast = response.data.daily;
   let forecastElement = document.querySelector('#forecast');
 
     let forecastHTML = `<div class="row">`;
-  let days = ['Fri', 'Sat', 'Sun', 'Mon'];
   forecast.forEach(function(forecastDay, index) {
     if (index < 6) {
      forecastHTML =
        forecastHTML +
        `
     <div class="col-2">
-              ${formatDay(forecastDay.dt)} <br />
+              <span class="weekday">${formatDay(forecastDay.dt)}</span><br />
               <img src="http://openweathermap.org/img/wn/${forecastDay.weather[0].icon}@2x.png" alt="" width="42">
               <br />
               <strong>${Math.round(forecastDay.temp.max)}°</strong> ${Math.round(forecastDay.temp.min)}°
