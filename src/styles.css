@@ -35,7 +35,6 @@ img {
 
 .main-temperature {
   font-size: 60px;
-  margin-top: 45px;
 }
 
 
@@ -48,7 +47,8 @@ img {
 }
 
 .units {
-  top: -24px;
+  top: -15px;
+  margin-left: 10px;
   position: relative;
   font-size: 20px;
 }
@@ -69,7 +69,7 @@ img {
 }
 
 .weather-container {
-  border-radius: 30px;
+  border-radius: 15px;
   width: 45%;
   margin: 30px auto;
   background: linear-gradient(111.4deg, rgb(209, 231, 235) 7.4%, rgb(238, 219, 199) 51.4%, rgb(255, 159, 122) 82.6%, rgb(255, 109, 58) 100.2%);
@@ -77,6 +77,24 @@ img {
   padding: 20px;
 }
 
+
+.block-vertical-center {
+  display: flex;
+  align-items: center;
+  padding: 0 !important;
+}
+
+.block-horizontal-left {
+justify-content: left;
+}
+
+.block-horizontal-right {
+justify-content: right;
+}
+
+.block-horizontal-center {
+justify-content: center;
+}
 
 .link {
 text-decoration: none !important;
