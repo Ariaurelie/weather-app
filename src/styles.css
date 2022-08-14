@@ -47,10 +47,11 @@ img {
 }
 
 .units {
-  top: -15px;
-  margin-left: 10px;
+  top: -13px;
+  margin-left: -1px;
   position: relative;
   font-size: 20px;
+  font-weight: 400;
 }
 
 .author {
